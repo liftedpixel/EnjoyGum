@@ -1,0 +1,25 @@
+<!-- http://stackoverflow.com/questions/7935722/display-live-width-and-height-values-on-changing-window-resize -->
+
+#dimensions {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    z-index: 100;
+  }
+
+<script>
+  window.onresize = displayWindowSize;
+  window.onload = displayWindowSize;
+  function displayWindowSize() {
+    var myWidth = 0, myHeight = 0;
+    if( typeof( window.innerWidth ) == 'number' ) {myWidth = window.innerWidth; myHeight = window.innerHeight;}
+    else if( document.documentElement && ( document.documentElement.clientWidth ||document.documentElement.clientHeight ) ) {myWidth = document.documentElement.clientWidth; myHeight = document.documentElement.clientHeight;}
+    else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {myWidth = document.body.clientWidth; myHeight = document.body.clientHeight;}
+    document.getElementById("dimensions").innerHTML = myWidth + "x" + myHeight;
+  };
+</script>
+
+<div id="dimensionholder"><p id="dimensions"></p></div>

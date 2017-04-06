@@ -1,0 +1,72 @@
+#profiles {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#profile {
+  font-family: Arial;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 50px;
+  width: 120px;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+}
+
+#profile.fruit
+{
+  background-color: orange;
+}
+
+#profile.mint
+{
+  background-color: lightgreen;
+}
+
+#profile.bubblegum
+{
+  background-color: pink;
+}
+
+#profile.strawberry {
+  background-color: red;
+}
+
+#profile.watermellon {
+  background-color: tomato;
+}
+
+#profile.sour {
+  background-color: lime;
+}
+
+#profile.sweet {
+  background-color: lightcoral;
+}
+
+#profile.spearmint {
+  background-color: lightblue;
+}
+/*
+Peppermint
+Wintermint
+Menthol
+Grape
+Apple
+Tropical
+Berry
+Cotton Candy
+Cinnamon
+Chocolate
+Orange
+Banana
+Raspberry
+Cherry
+Mellon
+Lemon
+Peach
+*/

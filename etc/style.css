@@ -1,8 +1,18 @@
+#dimensions {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+  z-index: 100;
+}
+
 body {
   margin: 0px;
   padding: 0px;
   font-family: 'Coming Soon', sans-serif;
-  background-image: url("background.png");
+  background-image: url("./img/background.png");
   background-attachment: fixed;
 }
 
@@ -16,11 +26,11 @@ div#top {
 }
 
 span {
-
 }
 
 #header {
   position: fixed;
+  height: 10%;
   width: 100%;
   text-align: center;
   z-index: 99;
@@ -32,6 +42,9 @@ span {
 	text-shadow: 4px 4px 1px #96C8EB;
   margin: 0px;
   border: 0px;
+  height: 100%;
+  width: 100%;
+  font-size: 100px;
 }
 
 #content {
@@ -97,6 +110,30 @@ span {
 .info img {
   height: 25px;
   width: 25px;
+}
+
+.half {
+  display: inline-block;
+  width: 12.5px;
+  height: 25px;
+  overflow: hidden;
+}
+
+.infoholder {
+  background-color: #F9F8F6;
+	width: 900px;
+	border: 10px solid #EE5D88;
+	border-radius: 25px;
+	box-shadow: 3px 3px 4px #000000;
+  margin: 30px;
+  padding: 15px 5px;
+}
+
+.infoholder .images {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
 }
 
 #footer {
