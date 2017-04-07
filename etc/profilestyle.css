@@ -1,6 +1,7 @@
-#profiles {
+.profiles {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 #profile {
@@ -15,11 +16,13 @@
   border-radius: 25px;
   color: white;
   font-weight: bold;
+  text-shadow: 0px 0px 2px #000000;
+  margin: 3px;
 }
 
 #profile.fruit
 {
-  background-color: orange;
+  background-color: darkorange;
 }
 
 #profile.mint
@@ -49,24 +52,73 @@
 }
 
 #profile.spearmint {
-  background-color: lightblue;
+  background-color: palegreen;
 }
-/*
-Peppermint
-Wintermint
-Menthol
-Grape
-Apple
-Tropical
-Berry
-Cotton Candy
-Cinnamon
-Chocolate
-Orange
-Banana
-Raspberry
-Cherry
-Mellon
-Lemon
-Peach
-*/
+
+#profile.peppermint {
+  background-color: mistyrose;
+}
+
+#profile.wintermint {
+  background-color: powderblue;
+}
+
+#profile.menthol {
+  background-color: gray;
+}
+
+#profile.grape {
+  background-color: purple;
+}
+
+#profile.apple {
+  background-color: olivedrab;
+}
+
+#profile.tropical {
+  background-color: deepskyblue;
+}
+
+#profile.berry {
+  background-color: violet;
+}
+
+#profile.cottoncandy {
+  background-color: hotpink;
+}
+
+#profile.cinnamon {
+  background-color: firebrick;
+}
+
+#profile.chocolate {
+  background-color: saddlebrown;
+}
+
+#profile.orange {
+  background-color: orange;
+}
+
+#profile.banana {
+  background-color: yellow;
+}
+
+#profile.raspberry {
+  background-color: palevioletred;
+}
+
+#profile.cherry {
+  background-color: red;
+}
+
+#profile.mellon {
+  background-color: moccasin;
+}
+
+#profile.lemon {
+  background-color: lemonchiffon;
+}
+
+#profile.peach {
+  background-color: peachpuff;
+}
